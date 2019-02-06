@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+@import url('https://fonts.googleapis.com/css?family=Kanit|Lobster');
+
+.header{
+  height: 100vh;
+  width: 100%;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(home-bcg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.nav-link{
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+  margin: 0px 30px;
+}
+.about-me-header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+  letter-spacing: 0.3rem;
+  text-align: center;
+}
+.about-me-header-para{
+  color: white;
+  font-size: 1.8rem;
+}
+.btn-round{
+  border-radius: 50%;
+  margin: auto 20px 10px 0px;
+}
+.btn-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+/* Section Two */
