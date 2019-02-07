@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:300');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+.nav-wrapper{
+  background-color: grey;
+}
+body{
+  font-family: 'Source Code Pro', monospace;
+}
+.brand-logo{
+  font-family: 'Gloria Hallelujah', cursive;
+}
+.sidenav{
+background-color:  rgba(0, 0, 0, 0.6);
+padding-top: 60px;
+}
+.sidenav-font{
+  font-size:3rem;
+}
+.parallax-container {
+      height:100vh;
+}
