@@ -14,4 +14,4 @@ app.get('/', function (req, res) {
 });
 
 //listening on port 5000
-app.listen(5000);
+app.listen(PROCESS.ENV || 5000);
