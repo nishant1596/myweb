@@ -12,6 +12,8 @@ app.use(express.static('css'));
 app.get('/', function (req, res) {
     res.render('index');
 });
-
+app.get('/portfolio', function (req, res) {
+    res.render('portfolio');
+});
 //listening on port 5000
 app.listen(process.env.PORT || 5000);

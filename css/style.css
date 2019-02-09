@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:300');
-@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 .container {
   width: 100%;
   max-width:initial;
@@ -27,7 +26,9 @@ padding-top: 60px;
   font-size:3rem;
 }
 .home-bcg{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)),url(home-bcg.jpg);
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6)),url(home-bcg.jpg);
+  /* background-image: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6)),url(home-bcg.jpg); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6)),url(home-bcg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment:fixed;

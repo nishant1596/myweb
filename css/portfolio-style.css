@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:300');
+
+.container {
+  width: 100%;
+  max-width:initial;
+}
+
+.container > .row {
+  margin: 0;
+}
+.container > .row > .col {
+  padding: 0;
+}
+.nav-wrapper{
+  background-color: grey;
+}
+body{
+  font-family: 'Source Code Pro', monospace;
+}
+
+/* Portfolio Section */
+.portfolio-bcg{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6)),url(portfolio-bcg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.portfolio-header{
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+}
+.in-development-phase{
+  position:relative;
+  top:40vh;
+  text-align: center;
+  color:White;
+  
+}

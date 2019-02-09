@@ -1,0 +1,68 @@
+<!-- Navbar section -->
+<div class="container">
+  <div class="row">
+    <div class="col s12 l12 m12 xl12">
+      <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+              <a href="/" class="brand-logo hide-on-med-and-down" >Home</a>
+              <a href="/" class="brand-logo hide-on-large-only" >Home</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="#portfolio" style="color:white;font-size: 30px;">Portfolio</a></li>
+                <li><a href="/#skill-section" style="color:white;font-size: 30px;">Skills</a></li>
+                <li><a href="#" style="color:white;font-size: 30px;" id="blog">Blogs</a></li>
+                <!-- <li><a href="mobile.html" style="color:white;font-size: 30px;">About</a></li> -->
+              </ul>
+            </div>
+          </nav>
+      </div>
+
+
+        <ul class="sidenav" id="mobile-demo">
+          <li ><a href="#portfolio" style="color:white;font-size: 30px;">Portfolio</a></li>
+          <li class="sidenav-font"><a href="#skill-section" style="color:white;font-size: 30px;" >Skills</a></li>
+          <li><a href="#" style="color:white;font-size: 30px;" id="blogs">Blogs</a></li>
+          <!-- <li><a href="mobile.html" style="color:white;font-size: 30px;">About</a></li> -->
+        </ul>
+    </div>
+  </div>
+</div>
+
+
+<!--Portfolio-->
+<div class="container">
+  <div class="portfolio-bcg" id="">
+<div class="portfolio-header">
+  --Portfolio--
+
+</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 in-development-phase">
+        This section is yet to come <br> --In development phase --
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+<script>
+// Sidenav
+$(document).ready(function(){
+$('.sidenav').sidenav();
+});
+
+//Parallax
+$(document).ready(function(){
+    $('.parallax').parallax();
+});
+document.getElementById('blog').addEventListener("click",function(){
+  alert('I have not started writing blogs');
+});
+document.getElementById('blogs').addEventListener("click",function(){
+  alert('I have not started writing blogs');
+});
+</script>
